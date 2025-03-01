@@ -1,0 +1,14 @@
+[Unit]
+Description=Go RDS Proxy Agent
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/db-proxy
+Restart=always
+User=nobody
+Group=nogroup
+Environment=PUBLIC_IP=0.0.0.0:5432
+Environment=DB_HOST=your-db-endpoint:5432
+
+[Install]
+WantedBy=multi-user.target
