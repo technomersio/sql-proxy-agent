@@ -1,4 +1,4 @@
-# SQl Proxy Agent
+# SQL Proxy Agent
 
 A lightweight **Go-based TCP proxy** that securely forwards database connections from a **public IP** to an **PostgreSQL instance**. Similar to Google's Cloud SQL Auth Proxy, it enables access control via firewall rules while keeping credentials secure.
 
