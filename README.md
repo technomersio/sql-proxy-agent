@@ -1,6 +1,6 @@
 # RDS Proxy Agent
 
-A lightweight **Go-based TCP proxy** that securely forwards database connections from a **public IP** to an ***PostgreSQL instance**. Similar to Google's Cloud SQL Auth Proxy, it enables access control via firewall rules while keeping credentials secure.
+A lightweight **Go-based TCP proxy** that securely forwards database connections from a **public IP** to an **PostgreSQL instance**. Similar to Google's Cloud SQL Auth Proxy, it enables access control via firewall rules while keeping credentials secure.
 
 ## Quick Started
 Check for the latest version on the https://cloud-sql-proxy.vercel.app and use the following instructions for your OS and CPU architecture.
@@ -99,7 +99,6 @@ Unzip and get started
 
 </details>
 
-<details>
 
 ## Features
 - **Secure TCP proxy** for database PostgreSQL
