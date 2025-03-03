@@ -2,6 +2,11 @@
 
 A lightweight **Go-based TCP proxy** that securely forwards database connections from a **public IP** to an **PostgreSQL instance**. Similar to Google's Cloud SQL Auth Proxy, it enables access control via firewall rules while keeping credentials secure.
 
+## What is this for?
+Accessing a database running in a private instance or network. Since the database is in a private network, it cannot be accessed directly from a local system. This agent runs on a minimal or free-tier instance within the same VPC as the database. It acts as a proxy, forwarding requests from a local system to the database via the public instance, which has access to both private and public networks.
+
+![Example Image](image.png)
+
 ## Quick Started
 Check for the latest version on the https://cloud-sql-proxy.vercel.app and use the following instructions for your OS and CPU architecture.
 
