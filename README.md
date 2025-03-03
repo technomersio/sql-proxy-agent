@@ -7,7 +7,7 @@ Accessing a database running in a private instance or network. Since the databas
 
 ![Example Image](image.png)
 
-## Quick Started
+## Quick start guide
 Check for the latest version on the https://cloud-sql-proxy.vercel.app and use the following instructions for your OS and CPU architecture.
 
 <!-- {x-release-please-start-version} -->
@@ -135,7 +135,7 @@ Unzip and get started
    ./rds-proxy
    ```
 
-***Note:** Your free to change ports lets say your using mysql then port will be 3306
+**Note:** Your free to change ports lets say your using mysql then port will be 3306
 
 ## Deploy as a Systemd Service
 1. Copy the service file:
